@@ -1,0 +1,5 @@
+{
+  "name": "Algolia Customer Solutions Assignment",
+  "postCreateCommand": "npm ci",
+  "postStartCommand": "npm start"
+}
