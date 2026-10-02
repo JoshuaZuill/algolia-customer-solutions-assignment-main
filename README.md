@@ -88,3 +88,5 @@ If you use Github Codespaces to publish your site, please ensure that your envir
 | Technical aptitude                                      |     |     |
 | Problem Solving                                         |     |     |
 | Communication skills                                    |     |     |     |
+
+GITHUB SETUP COMPLETE
