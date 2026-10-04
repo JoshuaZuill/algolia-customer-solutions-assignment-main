@@ -21,3 +21,5 @@ yarn-error.log*
 .vscode
 
 .parcel-cache
+
+/docs/decision-log.md
