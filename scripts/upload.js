@@ -43,6 +43,7 @@ for (const product of products) {
 
     product.price = Math.floor(originalPrice * 0.8);
   }
+  // eslint-disable-next-line camelcase
   product.price_range = getPriceRange(product.price);
 }
 

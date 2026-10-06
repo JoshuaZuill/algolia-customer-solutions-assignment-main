@@ -25,9 +25,11 @@ class ResultPage {
   _registerClient() {
     this._searchClient = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_API_KEY);
 
+    // enabled insights as per instantsearch documentation
     this._searchInstance = instantsearch({
       indexName: process.env.ALGOLIA_INDEX,
       searchClient: this._searchClient,
+      insights: true,
     });
   }
 
