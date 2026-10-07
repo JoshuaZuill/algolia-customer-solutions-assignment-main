@@ -3,9 +3,6 @@ const resultHit = (hit, helpers) => {
   const highlight = helpers.components.Highlight;
 
   function viewProduct(event) {
-    //eslint-disable-next-line no-console
-    console.log('Handler Reached', hit.objectID);
-    
     event.stopPropagation();
     helpers.sendEvent('click', hit, 'Product Clicked');
   }
