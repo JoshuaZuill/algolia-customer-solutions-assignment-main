@@ -22,11 +22,9 @@ Firstly, thank you for your feedback. Feedback from users such as yourself helps
 
 I’m sorry the additional clicks are making clearing and deleting indexes inconvenient while you are iterating.
 
-For a workflow where you regularly repeat these actions, one option is to use Algolia’s API to include them in your development script. Clearing removes the records whilst retaining the settings, synonyms and rules; deleting removes the index itself. This could reduce the need to repeat the dashboard steps.
+For a workflow where you regularly repeat these actions, one option is to use Algolia’s API to include them in your development script. Clearing removes the records whilst retaining the settings, synonyms and rules; deleting removes the index itself. This could reduce the need to repeat the dashboard steps and I would be happy to step you through setting this up.
 
-Here is the documentation for clearing an index and deleting an index. (include documentation link)
-
-If helpful, I would be happy to have a short meeting to review your workflow and discuss whether this approach would suit you. It would also allow me to gather your click-path and suggestions and share these with our product team. I cannot promise a dashboard change, but I can make sure your feedback is passed on.
+If helpful, I would be happy to have a short meeting to review your workflow and discuss whether this approach would suit you. It would also allow me to gather your click-path and suggestions and share these with our product team.
 
 Please let me know if you would like to arrange a quick call.
 
@@ -59,7 +57,7 @@ I’m sorry your users are unable to publish their feedback. As this is affectin
 
 The error you are seeing means a record being sent to Algolia for indexing exceeds your plan’s record-size limit. The additional metadata may be contributing to this, particularly if each coffee shop record contains a growing collection of reviews.
 
-Being a paying customer does not necessarily mean you need to upgrade. I would first check your plan’s limit and the size of a rejected record. Algolia’s current Standard, Premium and Grow plans allow individual records up to 100 KB, with a 10 KB average limit; limits differ for some legacy plans.
+Being a paying customer does not necessarily mean you need to upgrade. I would first check your plan’s limit and the size of a rejected record. Algolia’s current Standard, Premium and Grow plans allow individual records up to 100 KB, with a 10 KB average limit.
 
 For immediate investigation, could you please share your application ID, index name and an example of a rejected record, with any personal information or credentials removed? Please also confirm the timezone for the 9:15am start time and any changes made around then.
 
