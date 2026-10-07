@@ -10,7 +10,9 @@ Sorry to give you the kind of feedback that I know you do not want to hear, but 
    
 Thanks,  
 Marissa  
+
 ------------------------------
+
 From: joshua.zuill@algolia.com  
 Subject:  Bad design  
 
@@ -44,7 +46,10 @@ Since today 9:15am we have been seeing a lot of errors on our website. Multiple 
 Our website is an imdb like website where users can post reviews of coffee shops online. Along with that we enrich every record with a lot of metadata that is not for search. I am already a paying customer of your service, what else do you need to make your search work?  
   
 Please advise on how to fix this. Thanks.   
+
 ------------------------------
+
+
 From: joshua.zuill@algolia.com  
 Subject: URGENT ISSUE WITH PRODUCTION!!!!
 
@@ -90,6 +95,7 @@ Hi, my website is not working and here's the error:
 Can you fix it please?  
 
 ------------------------------
+
 From: joshua.zuill@algolia.com  
 Subject: Error on website  
 
